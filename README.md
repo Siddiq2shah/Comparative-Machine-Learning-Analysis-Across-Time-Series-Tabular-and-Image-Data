@@ -3,7 +3,23 @@
 This repository contains a multi-dataset machine learning project that applies supervised learning techniques to **three fundamentally different data modalities**:  
 - Time-series data  
 - Tabular demographic data  
-- Image data  
+- Image data
+
+ SignalSavants_Dataset1.ipynb`  
+  **Time-Series Regression on Daily Minimum Temperatures**  
+  Feature-based regression using lag variables and rolling statistics to predict daily minimum temperature values.
+
+- `SignalSavants_Dataset2.ipynb`  
+  **Tabular Classification on Adult Income Data**  
+  Supervised classification using demographic and socioeconomic features to predict income category.
+
+- `SignalSavants_Dataset3.ipynb`  
+  **Image Classification on MNIST Handwritten Digits**  
+  Multiclass classification of handwritten digits using flattened pixel features and dimensionality-aware modeling.
+
+- `daily-min-temperatures.csv`
+- `adult_clean.csv`
+- `mnist_clean.csv`
 
 A **consistent and principled machine learning pipeline** is maintained across all datasets, emphasizing correct data handling, justified model selection, rigorous evaluation, and ethical awareness.
 
